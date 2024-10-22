@@ -1,11 +1,16 @@
 # XSDChecker
-XSDChecker - позволяет проверить xml-файл на соответствие любой XSD-схеме
 
-### Инструкция:
 
-1. Распаковать архив с билдом
+XSDChecker - allows you to check the xml-file on xsd-schema
 
-2. Запустить exe-файл
+Download folder dist and open main.exe
+
+To add a new schema, place the file in the schemas folder in the directory with the script.
+
+-----------------------------------------------------------------------------------
+XSDChecker - позволяет проверять xml-файлы на соответствие любой XSD-схеме.
+
+Скачайте папку dist и запустите exe-файл.
 
 Для добавление новой схеме поместите файл в папку *schemas* в директории со скриптом.
 
