@@ -1,0 +1,22 @@
+DEBUG:root:2024-10-22 10:39:39.445048 resource_path C:\Users\PogoldinAM\Documents\Tasks\OBT-28605-проверка-по-xsd-cхеме\universalxmlchecker\test_builds\distschemas
+DEBUG:root:2024-10-22 10:39:50.706168 resource_path C:\Users\PogoldinAM\Documents\Tasks\OBT-28605-проверка-по-xsd-cхеме\universalxmlchecker\test_builds\distschemas
+DEBUG:root:2024-10-22 10:39:50.706168 ComboboxSelect C:\Users\PogoldinAM\Documents\Tasks\OBT-28605-проверка-по-xsd-cхеме\universalxmlchecker\test_builds\dist\schemas\Main.xsd
+ERROR:root:2024-10-22 10:39:50.706168   not well-formed (invalid token): line 177, column 14 ('not well-formed (invalid token): line 177, column 14',)
+ERROR:root:2024-10-22 10:39:50.706168   failed validating '772-095,' with XsdPatternFacets(['\\d{3}\\-\\d{3}']):
+
+Reason: value doesn't match any pattern of ['\\d{3}\\-\\d{3}']
+
+Schema component:
+
+  <xs:pattern xmlns:xs="http://www.w3.org/2001/XMLSchema" value="\d{3}\-\d{3}" />
+
+Instance type: <class 'xml.etree.ElementTree.Element'>
+
+Instance:
+
+  <deptCode>772-095,</deptCode>
+
+Path: /Document/Data/Subject_FL[30]/Title/FL_1_4_Group/FL_4_Doc/deptCode
+ (XsdPatternFacets(['\\d{3}\\-\\d{3}']), '772-095,', "value doesn't match any pattern of ['\\\\d{3}\\\\-\\\\d{3}']")
+DEBUG:root:2024-10-22 10:40:43.442332 resource_path C:\Users\PogoldinAM\Documents\Tasks\OBT-28605-проверка-по-xsd-cхеме\universalxmlchecker\test_builds\distschemas
+DEBUG:root:2024-10-22 10:40:43.442332 ComboboxSelect C:\Users\PogoldinAM\Documents\Tasks\OBT-28605-проверка-по-xsd-cхеме\universalxmlchecker\test_builds\dist\schemas\Main.xsd
