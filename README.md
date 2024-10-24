@@ -1,5 +1,9 @@
 # XSDChecker
 
+<p align="center">
+  <img width="300" height="250" src="https://github.com/Pogold/XSDChecker/blob/main/logoxsd.jpg">
+</p>
+
 
 XSDChecker - allows you to check the xml-file on xsd-schema
 
